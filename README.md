@@ -4,7 +4,7 @@ Lib JavaScript para integração no NodeJS com a [API](https://docs.spinpay.com.
 ### Instalação
 
 ```bash
-npm install evoline-api --save
+npm install spinpay --save
 ```
 
 ### Utilização
