@@ -1,0 +1,29 @@
+{
+  "name": "spinpay",
+  "version": "1.0.0",
+  "author": "Tiago Pereira <tiagops.prog@gmail.com>",
+  "description": "SpinPay API for NodeJS",
+  "main": "./src/SpinPayAPI.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiago-pereira/EvolineAPI-NodeJS.git"
+  },
+  "keywords": [
+    "spinpay",
+    "spinpayapi"
+  ],
+  "scripts": {
+    "test": "mocha src/api.test.js -r dotenv/config",
+    "coverage": "nyc mocha src/api.test.js -r dotenv/config"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0"
+  }
+}
