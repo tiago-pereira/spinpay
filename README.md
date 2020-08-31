@@ -28,11 +28,17 @@ spinPay.getPaymentMethods()
 
 ### Funções
 getPaymentMethods
+
 createPayment
+
 sendPaymentMethod
+
 getPaymentStatus
+
 cancelPayment
+
 refundPayment
+
 paymentRefunds
 
 ### License
